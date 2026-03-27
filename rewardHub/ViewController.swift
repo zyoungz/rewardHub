@@ -7,6 +7,7 @@
 
 import UIKit
 import MakeMoneyOnline
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,6 @@ class ViewController: UIViewController {
     /// 按钮
     private lazy var okButton:UIButton = {
         let button = UIButton()
-        button.frame = CGRect(x: 60, y: 60, width: 300, height: 50)
         button.setTitle("长按说话", for: .normal)
         button.backgroundColor = .purple
         button.layer.cornerRadius = 25.0
@@ -38,6 +38,13 @@ class ViewController: UIViewController {
         
         self.view.addSubview(okButton)
 
+        okButton.snp.makeConstraints { make in
+            make.left.equalTo(18)
+            make.right.equalTo(-18)
+            make.bottom.equalTo(-30)
+            make.height.equalTo(50)
+        }
+        
     }
 
 
