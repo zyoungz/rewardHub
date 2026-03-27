@@ -1,0 +1,16 @@
+PODS:
+  - MakeMoneyOnline (1.0.0)
+
+DEPENDENCIES:
+  - MakeMoneyOnline (from `../MakeMoneyOnline`)
+
+EXTERNAL SOURCES:
+  MakeMoneyOnline:
+    :path: "../MakeMoneyOnline"
+
+SPEC CHECKSUMS:
+  MakeMoneyOnline: aa7fef637d6401eccf7fdc15f80985531f9b104a
+
+PODFILE CHECKSUM: 81c2f4549da54a690fdde29d747807ada8be8c60
+
+COCOAPODS: 1.16.2

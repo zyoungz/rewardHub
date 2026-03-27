@@ -1,0 +1,6 @@
+framework module MakeMoneyOnline {
+  umbrella header "MakeMoneyOnline-umbrella.h"
+
+  export *
+  module * { export * }
+}
