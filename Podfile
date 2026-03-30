@@ -12,17 +12,20 @@ target 'rewardHub' do
 end
 
 post_install do |installer|
-  # 排除模拟器 arm64 架构，M1/M2 真机必备
-  installer.pods_project.build_configurations.each do |config|
-    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-  end
-
-  # 确保最低 iOS 版本
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
+      
+      # ✅ 关键：排除 arm64（模拟器）
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      
+      # ✅ 强制架构
+      config.build_settings["ARCHS[sdk=iphonesimulator*]"] = "x86_64"
+      
+      # 最低版本
       if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 13.0
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
       end
+      
     end
   end
 end

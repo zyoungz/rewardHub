@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EE8FD45DAEC49A0EA14FAA3 /* Pods_rewardHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49C243782779EB30EAE0E7B /* Pods_rewardHub.framework */; };
+		59776F59F5BB30C2010CDB11 /* Pods_rewardHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A878124500BA185B17FC2099 /* Pods_rewardHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61ED01452271E844743B4614 /* Pods-rewardHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.release.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.release.xcconfig"; sourceTree = "<group>"; };
+		39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.debug.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.debug.xcconfig"; sourceTree = "<group>"; };
+		91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.release.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.release.xcconfig"; sourceTree = "<group>"; };
 		954E6DCE2F7668F9004168C7 /* rewardHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rewardHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FEBF301FDFB7C0A7F5A93CD /* Pods-rewardHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.debug.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.debug.xcconfig"; sourceTree = "<group>"; };
-		C49C243782779EB30EAE0E7B /* Pods_rewardHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewardHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A878124500BA185B17FC2099 /* Pods_rewardHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewardHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EE8FD45DAEC49A0EA14FAA3 /* Pods_rewardHub.framework in Frameworks */,
+				59776F59F5BB30C2010CDB11 /* Pods_rewardHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +53,8 @@
 		3650EE6D79C5B2D291D5AC03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FEBF301FDFB7C0A7F5A93CD /* Pods-rewardHub.debug.xcconfig */,
-				61ED01452271E844743B4614 /* Pods-rewardHub.release.xcconfig */,
+				39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */,
+				91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 				954E6DD02F7668F9004168C7 /* rewardHub */,
 				954E6DCF2F7668F9004168C7 /* Products */,
 				3650EE6D79C5B2D291D5AC03 /* Pods */,
-				EDB242DC4AF7168CDFC01183 /* Frameworks */,
+				D3057D4A846CB8520121CB93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +77,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB242DC4AF7168CDFC01183 /* Frameworks */ = {
+		D3057D4A846CB8520121CB93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C49C243782779EB30EAE0E7B /* Pods_rewardHub.framework */,
+				A878124500BA185B17FC2099 /* Pods_rewardHub.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,11 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 954E6DE12F7668FA004168C7 /* Build configuration list for PBXNativeTarget "rewardHub" */;
 			buildPhases = (
-				FC93EC45FB98B5DFD2CD5393 /* [CP] Check Pods Manifest.lock */,
+				BBC4608937A4E5BDB7705123 /* [CP] Check Pods Manifest.lock */,
 				954E6DCA2F7668F9004168C7 /* Sources */,
 				954E6DCB2F7668F9004168C7 /* Frameworks */,
 				954E6DCC2F7668F9004168C7 /* Resources */,
-				BEEB63C9430CFE0C895B49C2 /* [CP] Copy Pods Resources */,
+				C0D56434E15F261EA85BF0F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,25 +155,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BEEB63C9430CFE0C895B49C2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC93EC45FB98B5DFD2CD5393 /* [CP] Check Pods Manifest.lock */ = {
+		BBC4608937A4E5BDB7705123 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,6 +177,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C0D56434E15F261EA85BF0F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rewardHub/Pods-rewardHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,7 +210,7 @@
 /* Begin XCBuildConfiguration section */
 		954E6DE22F7668FA004168C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FEBF301FDFB7C0A7F5A93CD /* Pods-rewardHub.debug.xcconfig */;
+			baseConfigurationReference = 39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -243,7 +243,7 @@
 		};
 		954E6DE32F7668FA004168C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61ED01452271E844743B4614 /* Pods-rewardHub.release.xcconfig */;
+			baseConfigurationReference = 91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -31,6 +31,8 @@ class ViewController: UIViewController {
      
         
         setupUI()
+        // 设置代理
+        RewardhubManager.shared.ndelegate = self
     }
     
     private func setupUI() {
@@ -57,4 +59,11 @@ extension ViewController {
         RewardhubManager.shared.openFeature(from: self)
     }
     
+}
+
+// ✅ 关键：实现协议
+extension ViewController: RewardhubDelegate {
+    func getUserToken() -> String {
+        return "宿主 token"
+    }
 }

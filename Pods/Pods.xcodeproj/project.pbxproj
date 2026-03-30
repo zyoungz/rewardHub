@@ -7,81 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AFD4CB0A05212812CE8B9531D069CF5 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF88BE961B69DA6A3F297E6A5895AF /* ConstraintLayoutSupportDSL.swift */; };
-		0CDCADE6300941CF8FF4800660ABC0FB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */; };
-		11CEB71B2DEF2ADFDFC501E2EE7184CC /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEFD662A8681CE6BEA3E6130106B66 /* ConstraintMakerRelatable+Extensions.swift */; };
-		17AB42472B8F944AAC5E917E55AB6906 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF511486018B445B9C0B5E032FDFEC /* ConstraintLayoutSupport.swift */; };
-		202530F92621BB1154146B5320201E87 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */; };
-		221E60C44E78EEAADF81EF46111D7841 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A18FA6A441F4891049EB19068AB0E /* ConstraintMakerPrioritizable.swift */; };
-		2278CA6C760C4D3E8188FF56902ED232 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAD86B1B333E5C3BB2F6BBB774040C /* ConstraintViewDSL.swift */; };
-		2485EF52F00BD7181B15E9746AFE6C71 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774B32E781F6B920DF58C6A82D3DD58 /* ConstraintOffsetTarget.swift */; };
-		2B598B9340E3DF7A590823CE0594A705 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24071568138D1626C9257C7CF24D1E5 /* ConstraintRelatableTarget.swift */; };
-		3D950727A88958CCB31B555610CE0E4B /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD05EFF6B30C486BAC64396881FA468 /* ConstraintMakerExtendable.swift */; };
-		3DB82593FAB4BC318390DEC8760B3284 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A24BC2FBA605AE31A7DD00C77A1AFC /* LayoutConstraint.swift */; };
-		4391B29869914ACDE891482A15687378 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F818A3A4208AE38575EECDB7ED252C0 /* ConstraintDSL.swift */; };
-		4C56E61E365830873785A0E4D201EF60 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFAAE062D36FE3EEC07D4C25471282 /* ConstraintMakerFinalizable.swift */; };
-		4E3FB6483B238CFAAF5B42EE187D7BCB /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5EC23085708C56164D766EB38852D /* ConstraintMultiplierTarget.swift */; };
-		5489268B8FC9A99F58A9762FDB425125 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B94BC18A56788D484421001BD348C7 /* ConstraintItem.swift */; };
-		598290D4B16AF5FD2484580287390B85 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92009AE551F69C62EB53474824532343 /* ConstraintRelation.swift */; };
-		60A434973382754EB2A53EFEA0AAF430 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E253F490710097A8A176C3141E5C7A6 /* ConstraintAttributes.swift */; };
-		60F50ED3477CA939565A8E9BF577EB5F /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C0A2BEB91F4B17FBCDFCFC98A2A1A0 /* LayoutConstraintItem.swift */; };
-		61E88A906911613C783012F2178F7A59 /* MakeMoneyOnline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1E369404D360CD618F0D8CC73A13B0 /* MakeMoneyOnline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		714C54899DE74A67C4E9586DEC2CD0C9 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2626FD4813CB2F42DD9DF34915C2C /* ConstraintPriority.swift */; };
-		74DD46A27A48BE1E2D4005DCF5FC1A1D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15D26AF894D0C156E313C56823356 /* ConstraintLayoutGuide+Extensions.swift */; };
-		78A0E210D50B43FEF88AA8DD2A61BE43 /* MyTestVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E028C7450DCB48151E5D97F57A9097A /* MyTestVc.swift */; };
-		7DE81924B5E4065FB043389FD907D327 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ACA4B6048BB2B76545899932AC73D /* ConstraintInsetTarget.swift */; };
-		88C447FE6AA43A87958BD47F379AAD07 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE860CC123108C310F139114E0B2E6B /* ConstraintLayoutGuideDSL.swift */; };
-		8F324A63CF576716EDBDF9B3BC820D9E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84828FF166FB07F13A97638DFC5C233 /* ConstraintView.swift */; };
+		026318C1A7A6BFB832BACAD51E842C62 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ACA4B6048BB2B76545899932AC73D /* ConstraintInsetTarget.swift */; };
+		0DB2143CC37BC3A2462424D187BB7A3F /* MakeMoneyOnline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0B894337C0EB04786EAFB745A12E0C /* MakeMoneyOnline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11AEA32D445727D11F3FCDFE1F1B0808 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A81458FFE100E677B8192E5A85EC4D35 /* SnapKit-dummy.m */; };
+		17FA12AA3A3D490CC4B7D938E5BB9CAD /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFAAE062D36FE3EEC07D4C25471282 /* ConstraintMakerFinalizable.swift */; };
+		213D05C3F91A4B87E51228B371CCC1FF /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */; };
+		2DFC6419FA767131AF06E8402DD096C1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B94BC18A56788D484421001BD348C7 /* ConstraintItem.swift */; };
+		2E95173C62D0FF9BFEA494CDDBEBD769 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84828FF166FB07F13A97638DFC5C233 /* ConstraintView.swift */; };
+		338B41D96FF1538C62DAC74AD877CFBB /* MakeMoneyOnline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78443DC4F140D163C5987CA2FB8B05E1 /* MakeMoneyOnline-dummy.m */; };
+		342637C0512DB8CD93E5BD980C694D77 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A18FA6A441F4891049EB19068AB0E /* ConstraintMakerPrioritizable.swift */; };
+		4F05BFD3A341DBEA809A52C4A27DD8B8 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F818A3A4208AE38575EECDB7ED252C0 /* ConstraintDSL.swift */; };
+		4F7FD9DEA1AA36CEE0150E32E90AFF33 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E253F490710097A8A176C3141E5C7A6 /* ConstraintAttributes.swift */; };
+		53221C252808035C4F9CDF9EFBAFFDCB /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD05EFF6B30C486BAC64396881FA468 /* ConstraintMakerExtendable.swift */; };
+		543E2B64439CC8821EF73C0700665511 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5EC23085708C56164D766EB38852D /* ConstraintMultiplierTarget.swift */; };
+		5AF0500E55C867780C9738AEE1A875CE /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A24BC2FBA605AE31A7DD00C77A1AFC /* LayoutConstraint.swift */; };
+		5D769BF3E22785D8DA368EC52FA73183 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15D26AF894D0C156E313C56823356 /* ConstraintLayoutGuide+Extensions.swift */; };
+		6404CA3F53C9F02B0B35B4AD4F7F8537 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825AB4712E9199C7E3D534D47F877FE9 /* UILayoutSupport+Extensions.swift */; };
+		651CFFF5E171E2FAD072868D851E3FFB /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38207E5196EEDEA0FB62FD2F1E7DBF /* Constraint.swift */; };
+		6FEDD925112F76806B288C53BAFB389E /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE860CC123108C310F139114E0B2E6B /* ConstraintLayoutGuideDSL.swift */; };
+		77AB59E246DEAA247B2C2070BCAAA72D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA2578D79E7761A2FA38941388BB2D /* ConstraintMaker.swift */; };
+		785896D25F0CF76C0C8CDC2558024D41 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2C8D1AB2F537B31A5FEE4C906A8B5 /* ConstraintMakerRelatable.swift */; };
+		78BBBA0A2CC2827F6E9DB34F152AE6B9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */; };
+		83AA8251C5455A827F428FF6A05ACE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		84177AC4C73D0A35C554792CFE24899A /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151AA3EBE404CF0EE0F95E6E4D54301 /* ConstraintLayoutGuide.swift */; };
+		84615196A30F91E26F360B2A5554C9A6 /* RewardhubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591AB8169F36EC721379F17D07B32A3C /* RewardhubManager.swift */; };
+		8D945B4918D2E4C0E65827DC33CB6168 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAD86B1B333E5C3BB2F6BBB774040C /* ConstraintViewDSL.swift */; };
+		8E297FCEE2F992D0E5F79095563EA4DA /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92009AE551F69C62EB53474824532343 /* ConstraintRelation.swift */; };
+		8EB08E357A9C3F2128CCC18BDF059B6A /* PKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7E74B7117B8302CB1F53A33CFAA22B /* PKBaseViewController.swift */; };
 		9078B7DD58625760A994C1DFF5B0D724 /* Pods-rewardHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B886F54C14D74A07BD3F6ACDC0E2BB /* Pods-rewardHub-dummy.m */; };
-		93373EDE3DECDC620EE20ED50D12EB95 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D29E7DCF71E39255CA4CFD9DC2DC6E /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A038BB2E885B639D4F4665B3FF39637 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2C8D1AB2F537B31A5FEE4C906A8B5 /* ConstraintMakerRelatable.swift */; };
-		9AE22CAF7BB2D3E8BD8AFE2707DC76F8 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ACFFCC108574621D81B37BF15FE69 /* ConstraintMakerEditable.swift */; };
-		9BAB1EC5E6CFE2021D9DF9E4A8B0741A /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */; };
-		9BBF4603DA5CCC35466EF5162B7739BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		9DC9A39B61684CA5DC2031E9B9026A4A /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A977608F42FD0EA87CB4A76AEAF838 /* ConstraintDescription.swift */; };
-		A894123B4AA01B1AF6DF0E924B00C04C /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A81458FFE100E677B8192E5A85EC4D35 /* SnapKit-dummy.m */; };
-		A8C280533A36339AFDFD5EC7F3FE86C2 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357C396EF80AF02117C256B9F52DC15 /* ConstraintInsets.swift */; };
-		B006E1424EB9459037EDE996B762B844 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151AA3EBE404CF0EE0F95E6E4D54301 /* ConstraintLayoutGuide.swift */; };
-		B3E405A3F2BD7C20DF02D117E0EC64A2 /* RewardhubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A182AF37BF8AA3349B7D5CC7D48584F /* RewardhubManager.swift */; };
-		B8A81AA774A0BF54701B8F8D8E7C94CA /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07559631FE7F3C9A44AEFE2792C6950E /* Debugging.swift */; };
-		BE6E0B9A6E29C083E3B9607C3BA7034D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825AB4712E9199C7E3D534D47F877FE9 /* UILayoutSupport+Extensions.swift */; };
-		C3A674D3F470C32C9C289AF9D8D22B4B /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63822BEC8D04268A6B667741C17C19 /* ConstraintPriorityTarget.swift */; };
-		C6E4D6160FB0583F23206F6393AB9B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		996293E405EB8A555CDD748F180065BB /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF511486018B445B9C0B5E032FDFEC /* ConstraintLayoutSupport.swift */; };
+		9C6F37CA87E8C5A5CC4BA65F40709C34 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A977608F42FD0EA87CB4A76AEAF838 /* ConstraintDescription.swift */; };
+		9DAA980832324AB93002B4AF6925ACDB /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24071568138D1626C9257C7CF24D1E5 /* ConstraintRelatableTarget.swift */; };
+		9FC2DF37DCB31FCA37FA530D872A9017 /* MyTestVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82334EB58E9C5ED8265A3E071C7FA73 /* MyTestVc.swift */; };
+		A2C69D28CA0E65ED715F10A7ED26B3AE /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEFD662A8681CE6BEA3E6130106B66 /* ConstraintMakerRelatable+Extensions.swift */; };
+		AD5B281F3AA02AACA77294E86297ABAF /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319019DC58A68C736F6001CC6E6B691A /* ConstraintView+Extensions.swift */; };
+		B5A58BFB19C1B8E764555A3075CFAAF4 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774B32E781F6B920DF58C6A82D3DD58 /* ConstraintOffsetTarget.swift */; };
+		C204DDF4D1C433536BC957140BA42E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C6FAC9AE840F9905C06E46EAC8DA6D3E /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF88BE961B69DA6A3F297E6A5895AF /* ConstraintLayoutSupportDSL.swift */; };
 		C812D4DA9A7E1F6B94969C9D7EFA67E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		CA9F7531F860E624107930431CAD0AA5 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA2578D79E7761A2FA38941388BB2D /* ConstraintMaker.swift */; };
-		D0AF1778508FD7435E79572EF8B753E8 /* PKBaseNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8D54A88BB4CBE6A81274ACD023151 /* PKBaseNavVC.swift */; };
-		D21B70419D97A50B9D4AFC47D9DECAE5 /* MakeMoneyOnline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D13C81F20E6ACF66EBCE70A395B49E /* MakeMoneyOnline-dummy.m */; };
-		D33FB72B4366607035D77A9E528CBF1B /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319019DC58A68C736F6001CC6E6B691A /* ConstraintView+Extensions.swift */; };
-		D9B50139B16887930E54DAE465C57ECA /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */; };
-		E939EAA2B1D144A5BFC20CC77B1577F6 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29359F9733D1045A34DE64FC936D3266 /* Typealiases.swift */; };
-		F29F63D0CFB440D235C0E82CA5BADB31 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1976F627EA9706470FA5B5DB72F7B74D /* ConstraintConfig.swift */; };
+		CE4630D6BEF62CA2C6A99D1334C58410 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */; };
+		CF5448E8FC510B5391E0BBD4D3C91052 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07559631FE7F3C9A44AEFE2792C6950E /* Debugging.swift */; };
+		D1CD598D19355BD73160DBDDED9719D9 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2626FD4813CB2F42DD9DF34915C2C /* ConstraintPriority.swift */; };
+		D68E5F215066C4FABAC0444E00912AE8 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D29E7DCF71E39255CA4CFD9DC2DC6E /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0578EDE09CE36007AC7076FC5F27C61 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63822BEC8D04268A6B667741C17C19 /* ConstraintPriorityTarget.swift */; };
+		E29F02BF6E84A4EF99419852B134BD3C /* PKBaseNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147869024EB9FEE4A864804EA0AA0053 /* PKBaseNavVC.swift */; };
+		E345844AD842DA7B1BE497D5AEB695EB /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */; };
+		E3F51278B1E66C6524439B46DFC9A1A3 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357C396EF80AF02117C256B9F52DC15 /* ConstraintInsets.swift */; };
+		E94BF503A8F76A18F9B5E90D3CE6B01D /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1976F627EA9706470FA5B5DB72F7B74D /* ConstraintConfig.swift */; };
+		EAF5A39C86D53FDB8830AC2B4F53C914 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C0A2BEB91F4B17FBCDFCFC98A2A1A0 /* LayoutConstraintItem.swift */; };
+		F19FC36AC08977904B33E97159264133 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ACFFCC108574621D81B37BF15FE69 /* ConstraintMakerEditable.swift */; };
 		F7D851F136FA1440564666A17F5B99A7 /* Pods-rewardHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47289B83D0B175F1AF90050C52E69B09 /* Pods-rewardHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEFD5DFA4CB7D31064404381274597D2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38207E5196EEDEA0FB62FD2F1E7DBF /* Constraint.swift */; };
+		FE6705FABCDDF0C4DA518C7D95655D03 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29359F9733D1045A34DE64FC936D3266 /* Typealiases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3BBB50A75E2502631DD0836F33D6A020 /* PBXContainerItemProxy */ = {
+		2A7C86D5C8D4D2F1EE3595021F41C989 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
 			remoteInfo = "SnapKit-SnapKit_Privacy";
 		};
-		B9FFCE3AED03E6E0DC7A681C6EEBC11D /* PBXContainerItemProxy */ = {
+		4089FC18874A5684BBFE941958494295 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		EBE68CCBAAF4B450CF900BE73C87384C /* PBXContainerItemProxy */ = {
+		7481F1B0B23DAA5222A96C23B8CDA9FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F21392FCCF225189B7C831596C400E34;
 			remoteInfo = MakeMoneyOnline;
 		};
-		F151F7BF68922D5124FF855CCA66010C /* PBXContainerItemProxy */ = {
+		9601D49E2A98DB543E8BB8A7538C297A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -91,36 +92,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057F6BB72D690A79E7BFBAABD20B529C /* MakeMoneyOnline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MakeMoneyOnline.modulemap; sourceTree = "<group>"; };
 		07559631FE7F3C9A44AEFE2792C6950E /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
 		0C07981897B5BED8CBAE6D60384F29DB /* Pods-rewardHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rewardHub-Info.plist"; sourceTree = "<group>"; };
 		0E253F490710097A8A176C3141E5C7A6 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		1299C9BFDF748D1B543EDA34681221CC /* Pods-rewardHub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rewardHub-acknowledgements.plist"; sourceTree = "<group>"; };
+		147869024EB9FEE4A864804EA0AA0053 /* PKBaseNavVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKBaseNavVC.swift; path = MakeMoneyOnline/PKBaseNavVC.swift; sourceTree = "<group>"; };
 		1976F627EA9706470FA5B5DB72F7B74D /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		1A7A18FA6A441F4891049EB19068AB0E /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		1BFF88BE961B69DA6A3F297E6A5895AF /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		1CC7C5D9EE5ACEFEEE755EC75B533D7B /* Pods-rewardHub */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-rewardHub"; path = Pods_rewardHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E028C7450DCB48151E5D97F57A9097A /* MyTestVc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyTestVc.swift; path = MakeMoneyOnline/MyTestVc.swift; sourceTree = "<group>"; };
 		1FEAD86B1B333E5C3BB2F6BBB774040C /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		268676539F9C1C2CECBA743E1BA0AA54 /* MakeMoneyOnline-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MakeMoneyOnline-Info.plist"; sourceTree = "<group>"; };
 		27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		2845AB1F32E5906B12565E2606D41BD2 /* MakeMoneyOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MakeMoneyOnline.debug.xcconfig; sourceTree = "<group>"; };
 		28734268A673078C4DEB0C333FF99559 /* Pods-rewardHub-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rewardHub-resources.sh"; sourceTree = "<group>"; };
 		29359F9733D1045A34DE64FC936D3266 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		2A182AF37BF8AA3349B7D5CC7D48584F /* RewardhubManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RewardhubManager.swift; path = MakeMoneyOnline/RewardhubManager.swift; sourceTree = "<group>"; };
-		2B4DCC2F831510244BD53E5CA653C9D1 /* MakeMoneyOnline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakeMoneyOnline-prefix.pch"; sourceTree = "<group>"; };
-		2DA9B1DFE5DADFDF88BC2F8298A4D319 /* MakeMoneyOnline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MakeMoneyOnline.modulemap; sourceTree = "<group>"; };
 		2E0ACFFCC108574621D81B37BF15FE69 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		2F818A3A4208AE38575EECDB7ED252C0 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
 		319019DC58A68C736F6001CC6E6B691A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BD0862B623DB3522AD43F96F9510BE0 /* MakeMoneyOnline.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MakeMoneyOnline.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3CCFAAE062D36FE3EEC07D4C25471282 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		3CF2626FD4813CB2F42DD9DF34915C2C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		3DD05EFF6B30C486BAC64396881FA468 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		3F8CC556A5FFEE83D6A7F4DB649341D7 /* MakeMoneyOnline */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MakeMoneyOnline; path = MakeMoneyOnline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D13C81F20E6ACF66EBCE70A395B49E /* MakeMoneyOnline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MakeMoneyOnline-dummy.m"; sourceTree = "<group>"; };
 		47289B83D0B175F1AF90050C52E69B09 /* Pods-rewardHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rewardHub-umbrella.h"; sourceTree = "<group>"; };
-		4EF8D54A88BB4CBE6A81274ACD023151 /* PKBaseNavVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKBaseNavVC.swift; path = MakeMoneyOnline/PKBaseNavVC.swift; sourceTree = "<group>"; };
+		591AB8169F36EC721379F17D07B32A3C /* RewardhubManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RewardhubManager.swift; path = MakeMoneyOnline/RewardhubManager.swift; sourceTree = "<group>"; };
 		59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		59B886F54C14D74A07BD3F6ACDC0E2BB /* Pods-rewardHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rewardHub-dummy.m"; sourceTree = "<group>"; };
 		5BCF511486018B445B9C0B5E032FDFEC /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
@@ -128,11 +125,11 @@
 		64B94BC18A56788D484421001BD348C7 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		64C4EE0776D813F8963268A978FDAAD7 /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
 		7151AA3EBE404CF0EE0F95E6E4D54301 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		7347FCADF8E39385FC65F149EF054F43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		76CA2578D79E7761A2FA38941388BB2D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
-		7A1E369404D360CD618F0D8CC73A13B0 /* MakeMoneyOnline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakeMoneyOnline-umbrella.h"; sourceTree = "<group>"; };
+		78443DC4F140D163C5987CA2FB8B05E1 /* MakeMoneyOnline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MakeMoneyOnline-dummy.m"; sourceTree = "<group>"; };
 		7C38207E5196EEDEA0FB62FD2F1E7DBF /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
+		7DF120ECC3EA294F5BFCA6F62BD8A96F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		825AB4712E9199C7E3D534D47F877FE9 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		86FEFD662A8681CE6BEA3E6130106B66 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		8AE7E71214DA33BE1E83DEE094586071 /* Pods-rewardHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rewardHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,45 +146,50 @@
 		AE0ACA4B6048BB2B76545899932AC73D /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		B5160BB353D53B94AFEEF18F70920800 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9B4A232681ABAEFCA1E5B70D632FBC /* MakeMoneyOnline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakeMoneyOnline-prefix.pch"; sourceTree = "<group>"; };
 		BCE860CC123108C310F139114E0B2E6B /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		C24071568138D1626C9257C7CF24D1E5 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		C7C9AC33E6FC66384A46A8FD26AACADA /* MakeMoneyOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MakeMoneyOnline.release.xcconfig; sourceTree = "<group>"; };
 		D357C396EF80AF02117C256B9F52DC15 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		D9A24BC2FBA605AE31A7DD00C77A1AFC /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		DE63822BEC8D04268A6B667741C17C19 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		E157A97BA35907B92B9EFE82BEAE71EE /* MakeMoneyOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MakeMoneyOnline.release.xcconfig; sourceTree = "<group>"; };
+		E19534027A0ED0DDF517DB5C0528E674 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E5FB569DBB807F3BDF88CF9D454E98B4 /* Pods-rewardHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rewardHub.release.xcconfig"; sourceTree = "<group>"; };
 		E617A6F40E8D5EA0D6A5379E4F83B53E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		E6B2C8D1AB2F537B31A5FEE4C906A8B5 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		E774B32E781F6B920DF58C6A82D3DD58 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		E82334EB58E9C5ED8265A3E071C7FA73 /* MyTestVc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyTestVc.swift; path = MakeMoneyOnline/MyTestVc.swift; sourceTree = "<group>"; };
 		ED33CCCA7A7AD3D2FC51F33BA49A695A /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		EFFF6E403D38175A388B843CE9CA953C /* Pods-rewardHub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rewardHub-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F78DEF66270CA4E14F34568B3BF6D3B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F2A2E836A5124D9D31012C9E10AF5CB4 /* MakeMoneyOnline-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MakeMoneyOnline-Info.plist"; sourceTree = "<group>"; };
+		F8305DC1D81FB6D7389CC281B58FC0DE /* MakeMoneyOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MakeMoneyOnline.debug.xcconfig; sourceTree = "<group>"; };
 		F8E15D26AF894D0C156E313C56823356 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		FF657F024336DA52A37C8F067867BF59 /* MakeMoneyOnline.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MakeMoneyOnline.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA0B894337C0EB04786EAFB745A12E0C /* MakeMoneyOnline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakeMoneyOnline-umbrella.h"; sourceTree = "<group>"; };
+		FE7E74B7117B8302CB1F53A33CFAA22B /* PKBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKBaseViewController.swift; path = MakeMoneyOnline/PKBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		152C0FCA92EB3C743589E28F609BAC1E /* Frameworks */ = {
+		2EDA1D71AD38FC349D0CC2DE9A2D3ED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E4D6160FB0583F23206F6393AB9B60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D80715A27F0E89A6CA559B3BCB65C7F /* Frameworks */ = {
+		56D1EEA9C46F56811352FCBAB53B8C50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BBF4603DA5CCC35466EF5162B7739BF /* Foundation.framework in Frameworks */,
+				83AA8251C5455A827F428FF6A05ACE12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F890D6594226CFB31D690614391D6FC /* Frameworks */ = {
+		B9CF7FE40AC48E806EDC5ED464A87B60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C204DDF4D1C433536BC957140BA42E05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,42 +204,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01EF75EC3786F071D91082BCBB906E27 /* Support Files */ = {
+		22B282441FF59182BB646C45EEEE0229 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DA9B1DFE5DADFDF88BC2F8298A4D319 /* MakeMoneyOnline.modulemap */,
-				44D13C81F20E6ACF66EBCE70A395B49E /* MakeMoneyOnline-dummy.m */,
-				268676539F9C1C2CECBA743E1BA0AA54 /* MakeMoneyOnline-Info.plist */,
-				2B4DCC2F831510244BD53E5CA653C9D1 /* MakeMoneyOnline-prefix.pch */,
-				7A1E369404D360CD618F0D8CC73A13B0 /* MakeMoneyOnline-umbrella.h */,
-				2845AB1F32E5906B12565E2606D41BD2 /* MakeMoneyOnline.debug.xcconfig */,
-				C7C9AC33E6FC66384A46A8FD26AACADA /* MakeMoneyOnline.release.xcconfig */,
+				057F6BB72D690A79E7BFBAABD20B529C /* MakeMoneyOnline.modulemap */,
+				78443DC4F140D163C5987CA2FB8B05E1 /* MakeMoneyOnline-dummy.m */,
+				F2A2E836A5124D9D31012C9E10AF5CB4 /* MakeMoneyOnline-Info.plist */,
+				BB9B4A232681ABAEFCA1E5B70D632FBC /* MakeMoneyOnline-prefix.pch */,
+				FA0B894337C0EB04786EAFB745A12E0C /* MakeMoneyOnline-umbrella.h */,
+				F8305DC1D81FB6D7389CC281B58FC0DE /* MakeMoneyOnline.debug.xcconfig */,
+				E157A97BA35907B92B9EFE82BEAE71EE /* MakeMoneyOnline.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../rewardHub/Pods/Target Support Files/MakeMoneyOnline";
 			sourceTree = "<group>";
 		};
-		14DA97BF04B1A5FF69D2847784E4BCF1 /* MakeMoneyOnline */ = {
+		2E8BAB9AD8C4EDD365730802EC1BCA10 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E028C7450DCB48151E5D97F57A9097A /* MyTestVc.swift */,
-				4EF8D54A88BB4CBE6A81274ACD023151 /* PKBaseNavVC.swift */,
-				2A182AF37BF8AA3349B7D5CC7D48584F /* RewardhubManager.swift */,
-				1CA617996AE9DF67F447BE8ED2DE53D1 /* Pod */,
-				01EF75EC3786F071D91082BCBB906E27 /* Support Files */,
+				33C7C304D07445A372EBC1AD483B0C7E /* MakeMoneyOnline */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		33C7C304D07445A372EBC1AD483B0C7E /* MakeMoneyOnline */ = {
+			isa = PBXGroup;
+			children = (
+				E82334EB58E9C5ED8265A3E071C7FA73 /* MyTestVc.swift */,
+				147869024EB9FEE4A864804EA0AA0053 /* PKBaseNavVC.swift */,
+				FE7E74B7117B8302CB1F53A33CFAA22B /* PKBaseViewController.swift */,
+				591AB8169F36EC721379F17D07B32A3C /* RewardhubManager.swift */,
+				882EE155903A9795518CA8F6AA2C90BA /* Pod */,
+				22B282441FF59182BB646C45EEEE0229 /* Support Files */,
 			);
 			name = MakeMoneyOnline;
 			path = ../../MakeMoneyOnline;
-			sourceTree = "<group>";
-		};
-		1CA617996AE9DF67F447BE8ED2DE53D1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F78DEF66270CA4E14F34568B3BF6D3B0 /* LICENSE */,
-				FF657F024336DA52A37C8F067867BF59 /* MakeMoneyOnline.podspec */,
-				7347FCADF8E39385FC65F149EF054F43 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5D3B89879CD7A962491EE1663BDF4911 /* Products */ = {
@@ -249,14 +250,6 @@
 				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		78461558E94723F763E653B52E595C69 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				14DA97BF04B1A5FF69D2847784E4BCF1 /* MakeMoneyOnline */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		87FDA851525B9A6DDB207B899EF8B8FC /* Pods-rewardHub */ = {
@@ -274,6 +267,16 @@
 			);
 			name = "Pods-rewardHub";
 			path = "Target Support Files/Pods-rewardHub";
+			sourceTree = "<group>";
+		};
+		882EE155903A9795518CA8F6AA2C90BA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7DF120ECC3EA294F5BFCA6F62BD8A96F /* LICENSE */,
+				3BD0862B623DB3522AD43F96F9510BE0 /* MakeMoneyOnline.podspec */,
+				E19534027A0ED0DDF517DB5C0528E674 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8D0B7CD8E32E108AD67D7FF3666E011F /* Targets Support Files */ = {
@@ -304,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				78461558E94723F763E653B52E595C69 /* Development Pods */,
+				2E8BAB9AD8C4EDD365730802EC1BCA10 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D7A36BA4B042DEF057A525447231F499 /* Pods */,
 				5D3B89879CD7A962491EE1663BDF4911 /* Products */,
@@ -394,22 +397,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02602FD2128DD358308146EB90500E9E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E88A906911613C783012F2178F7A59 /* MakeMoneyOnline-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B19E1C26F40BE7CE508D069E10DE311C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93373EDE3DECDC620EE20ED50D12EB95 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B52276F7ABCD6F33B0DD60D300163416 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,22 +405,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA20AE29F4C3F0D1B1B18A4E4B9E0E21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB2143CC37BC3A2462424D187BB7A3F /* MakeMoneyOnline-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00CBDD2AAC90E46586606C49A55EE8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68E5F215066C4FABAC0444E00912AE8 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCA46D19B2DB97CE2F34C0701BF64CB3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 16EA8DEF54B414B7BF60BD13B1DB772F /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				B19E1C26F40BE7CE508D069E10DE311C /* Headers */,
-				1B597FF75C710D2373DDCB30E2C7915A /* Sources */,
-				5D80715A27F0E89A6CA559B3BCB65C7F /* Frameworks */,
-				D65DE5C1C52639DB08A6FF0D6A6687BB /* Resources */,
+				F00CBDD2AAC90E46586606C49A55EE8F /* Headers */,
+				E542F932AE9BFFF49509D7204D421D3E /* Sources */,
+				56D1EEA9C46F56811352FCBAB53B8C50 /* Frameworks */,
+				4B1E87EE8539804FDC061F7960A4C940 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C717305C10DC529C80DAC360038681A6 /* PBXTargetDependency */,
+				E01B90721F21A03192048DCD26E882B5 /* PBXTargetDependency */,
 			);
 			name = SnapKit;
 			productName = SnapKit;
@@ -442,11 +445,11 @@
 		};
 		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9D7939A3B1439A23453C08042FC1B7 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
+			buildConfigurationList = 6059C90DB60974B5F123254AF719DCD6 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
 			buildPhases = (
-				7648586D5581F871D98C85A4BEB57F9C /* Sources */,
-				6F890D6594226CFB31D690614391D6FC /* Frameworks */,
-				1D1A9D97CAB8DAE3E30143FF146233F1 /* Resources */,
+				C52B8535CD88606EF21CBF2026889B34 /* Sources */,
+				2EDA1D71AD38FC349D0CC2DE9A2D3ED2 /* Frameworks */,
+				574CF181D89A374CAD4546C228BA8A38 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -469,8 +472,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				9296DD7813FF25F49F41A411CF76074F /* PBXTargetDependency */,
-				045891E9899E92656A872D0A68E54530 /* PBXTargetDependency */,
+				879DCC48C7062CE9B065949C991844DD /* PBXTargetDependency */,
+				2F63BDE7EB53B0CE03B18C79356E630D /* PBXTargetDependency */,
 			);
 			name = "Pods-rewardHub";
 			productName = Pods_rewardHub;
@@ -479,17 +482,17 @@
 		};
 		F21392FCCF225189B7C831596C400E34 /* MakeMoneyOnline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87BEFF36EDD8319E4E58BD25726428C1 /* Build configuration list for PBXNativeTarget "MakeMoneyOnline" */;
+			buildConfigurationList = 0DFE79750629A7999F3085FABB5B7257 /* Build configuration list for PBXNativeTarget "MakeMoneyOnline" */;
 			buildPhases = (
-				02602FD2128DD358308146EB90500E9E /* Headers */,
-				C669278AD18B8FC9B2CB985CC59FC7E3 /* Sources */,
-				152C0FCA92EB3C743589E28F609BAC1E /* Frameworks */,
-				FAB490EB6AAB836B1946237C1C33AF94 /* Resources */,
+				BA20AE29F4C3F0D1B1B18A4E4B9E0E21 /* Headers */,
+				A879F2881303188B63571FCFF1DA720A /* Sources */,
+				B9CF7FE40AC48E806EDC5ED464A87B60 /* Frameworks */,
+				0E44A9A20A9C1F5C765ED4D4E5DCD8B1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A01BF1FE15C28414F494B5365D6C399A /* PBXTargetDependency */,
+				52772545E61DAEBCF26CF2F8E4831A8F /* PBXTargetDependency */,
 			);
 			name = MakeMoneyOnline;
 			productName = MakeMoneyOnline;
@@ -529,11 +532,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D1A9D97CAB8DAE3E30143FF146233F1 /* Resources */ = {
+		0E44A9A20A9C1F5C765ED4D4E5DCD8B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDCADE6300941CF8FF4800660ABC0FB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,72 +546,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65DE5C1C52639DB08A6FF0D6A6687BB /* Resources */ = {
+		4B1E87EE8539804FDC061F7960A4C940 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB490EB6AAB836B1946237C1C33AF94 /* Resources */ = {
+		574CF181D89A374CAD4546C228BA8A38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BBBA0A2CC2827F6E9DB34F152AE6B9 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B597FF75C710D2373DDCB30E2C7915A /* Sources */ = {
+		A879F2881303188B63571FCFF1DA720A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEFD5DFA4CB7D31064404381274597D2 /* Constraint.swift in Sources */,
-				60A434973382754EB2A53EFEA0AAF430 /* ConstraintAttributes.swift in Sources */,
-				F29F63D0CFB440D235C0E82CA5BADB31 /* ConstraintConfig.swift in Sources */,
-				D9B50139B16887930E54DAE465C57ECA /* ConstraintConstantTarget.swift in Sources */,
-				9DC9A39B61684CA5DC2031E9B9026A4A /* ConstraintDescription.swift in Sources */,
-				9BAB1EC5E6CFE2021D9DF9E4A8B0741A /* ConstraintDirectionalInsets.swift in Sources */,
-				202530F92621BB1154146B5320201E87 /* ConstraintDirectionalInsetTarget.swift in Sources */,
-				4391B29869914ACDE891482A15687378 /* ConstraintDSL.swift in Sources */,
-				A8C280533A36339AFDFD5EC7F3FE86C2 /* ConstraintInsets.swift in Sources */,
-				7DE81924B5E4065FB043389FD907D327 /* ConstraintInsetTarget.swift in Sources */,
-				5489268B8FC9A99F58A9762FDB425125 /* ConstraintItem.swift in Sources */,
-				B006E1424EB9459037EDE996B762B844 /* ConstraintLayoutGuide.swift in Sources */,
-				74DD46A27A48BE1E2D4005DCF5FC1A1D /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				88C447FE6AA43A87958BD47F379AAD07 /* ConstraintLayoutGuideDSL.swift in Sources */,
-				17AB42472B8F944AAC5E917E55AB6906 /* ConstraintLayoutSupport.swift in Sources */,
-				0AFD4CB0A05212812CE8B9531D069CF5 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				CA9F7531F860E624107930431CAD0AA5 /* ConstraintMaker.swift in Sources */,
-				9AE22CAF7BB2D3E8BD8AFE2707DC76F8 /* ConstraintMakerEditable.swift in Sources */,
-				3D950727A88958CCB31B555610CE0E4B /* ConstraintMakerExtendable.swift in Sources */,
-				4C56E61E365830873785A0E4D201EF60 /* ConstraintMakerFinalizable.swift in Sources */,
-				221E60C44E78EEAADF81EF46111D7841 /* ConstraintMakerPrioritizable.swift in Sources */,
-				9A038BB2E885B639D4F4665B3FF39637 /* ConstraintMakerRelatable.swift in Sources */,
-				11CEB71B2DEF2ADFDFC501E2EE7184CC /* ConstraintMakerRelatable+Extensions.swift in Sources */,
-				4E3FB6483B238CFAAF5B42EE187D7BCB /* ConstraintMultiplierTarget.swift in Sources */,
-				2485EF52F00BD7181B15E9746AFE6C71 /* ConstraintOffsetTarget.swift in Sources */,
-				714C54899DE74A67C4E9586DEC2CD0C9 /* ConstraintPriority.swift in Sources */,
-				C3A674D3F470C32C9C289AF9D8D22B4B /* ConstraintPriorityTarget.swift in Sources */,
-				2B598B9340E3DF7A590823CE0594A705 /* ConstraintRelatableTarget.swift in Sources */,
-				598290D4B16AF5FD2484580287390B85 /* ConstraintRelation.swift in Sources */,
-				8F324A63CF576716EDBDF9B3BC820D9E /* ConstraintView.swift in Sources */,
-				D33FB72B4366607035D77A9E528CBF1B /* ConstraintView+Extensions.swift in Sources */,
-				2278CA6C760C4D3E8188FF56902ED232 /* ConstraintViewDSL.swift in Sources */,
-				B8A81AA774A0BF54701B8F8D8E7C94CA /* Debugging.swift in Sources */,
-				3DB82593FAB4BC318390DEC8760B3284 /* LayoutConstraint.swift in Sources */,
-				60F50ED3477CA939565A8E9BF577EB5F /* LayoutConstraintItem.swift in Sources */,
-				A894123B4AA01B1AF6DF0E924B00C04C /* SnapKit-dummy.m in Sources */,
-				E939EAA2B1D144A5BFC20CC77B1577F6 /* Typealiases.swift in Sources */,
-				BE6E0B9A6E29C083E3B9607C3BA7034D /* UILayoutSupport+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7648586D5581F871D98C85A4BEB57F9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				338B41D96FF1538C62DAC74AD877CFBB /* MakeMoneyOnline-dummy.m in Sources */,
+				9FC2DF37DCB31FCA37FA530D872A9017 /* MyTestVc.swift in Sources */,
+				E29F02BF6E84A4EF99419852B134BD3C /* PKBaseNavVC.swift in Sources */,
+				8EB08E357A9C3F2128CCC18BDF059B6A /* PKBaseViewController.swift in Sources */,
+				84615196A30F91E26F360B2A5554C9A6 /* RewardhubManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,48 +584,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C669278AD18B8FC9B2CB985CC59FC7E3 /* Sources */ = {
+		C52B8535CD88606EF21CBF2026889B34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21B70419D97A50B9D4AFC47D9DECAE5 /* MakeMoneyOnline-dummy.m in Sources */,
-				78A0E210D50B43FEF88AA8DD2A61BE43 /* MyTestVc.swift in Sources */,
-				D0AF1778508FD7435E79572EF8B753E8 /* PKBaseNavVC.swift in Sources */,
-				B3E405A3F2BD7C20DF02D117E0EC64A2 /* RewardhubManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542F932AE9BFFF49509D7204D421D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CFFF5E171E2FAD072868D851E3FFB /* Constraint.swift in Sources */,
+				4F7FD9DEA1AA36CEE0150E32E90AFF33 /* ConstraintAttributes.swift in Sources */,
+				E94BF503A8F76A18F9B5E90D3CE6B01D /* ConstraintConfig.swift in Sources */,
+				CE4630D6BEF62CA2C6A99D1334C58410 /* ConstraintConstantTarget.swift in Sources */,
+				9C6F37CA87E8C5A5CC4BA65F40709C34 /* ConstraintDescription.swift in Sources */,
+				E345844AD842DA7B1BE497D5AEB695EB /* ConstraintDirectionalInsets.swift in Sources */,
+				213D05C3F91A4B87E51228B371CCC1FF /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				4F05BFD3A341DBEA809A52C4A27DD8B8 /* ConstraintDSL.swift in Sources */,
+				E3F51278B1E66C6524439B46DFC9A1A3 /* ConstraintInsets.swift in Sources */,
+				026318C1A7A6BFB832BACAD51E842C62 /* ConstraintInsetTarget.swift in Sources */,
+				2DFC6419FA767131AF06E8402DD096C1 /* ConstraintItem.swift in Sources */,
+				84177AC4C73D0A35C554792CFE24899A /* ConstraintLayoutGuide.swift in Sources */,
+				5D769BF3E22785D8DA368EC52FA73183 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				6FEDD925112F76806B288C53BAFB389E /* ConstraintLayoutGuideDSL.swift in Sources */,
+				996293E405EB8A555CDD748F180065BB /* ConstraintLayoutSupport.swift in Sources */,
+				C6FAC9AE840F9905C06E46EAC8DA6D3E /* ConstraintLayoutSupportDSL.swift in Sources */,
+				77AB59E246DEAA247B2C2070BCAAA72D /* ConstraintMaker.swift in Sources */,
+				F19FC36AC08977904B33E97159264133 /* ConstraintMakerEditable.swift in Sources */,
+				53221C252808035C4F9CDF9EFBAFFDCB /* ConstraintMakerExtendable.swift in Sources */,
+				17FA12AA3A3D490CC4B7D938E5BB9CAD /* ConstraintMakerFinalizable.swift in Sources */,
+				342637C0512DB8CD93E5BD980C694D77 /* ConstraintMakerPrioritizable.swift in Sources */,
+				785896D25F0CF76C0C8CDC2558024D41 /* ConstraintMakerRelatable.swift in Sources */,
+				A2C69D28CA0E65ED715F10A7ED26B3AE /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				543E2B64439CC8821EF73C0700665511 /* ConstraintMultiplierTarget.swift in Sources */,
+				B5A58BFB19C1B8E764555A3075CFAAF4 /* ConstraintOffsetTarget.swift in Sources */,
+				D1CD598D19355BD73160DBDDED9719D9 /* ConstraintPriority.swift in Sources */,
+				E0578EDE09CE36007AC7076FC5F27C61 /* ConstraintPriorityTarget.swift in Sources */,
+				9DAA980832324AB93002B4AF6925ACDB /* ConstraintRelatableTarget.swift in Sources */,
+				8E297FCEE2F992D0E5F79095563EA4DA /* ConstraintRelation.swift in Sources */,
+				2E95173C62D0FF9BFEA494CDDBEBD769 /* ConstraintView.swift in Sources */,
+				AD5B281F3AA02AACA77294E86297ABAF /* ConstraintView+Extensions.swift in Sources */,
+				8D945B4918D2E4C0E65827DC33CB6168 /* ConstraintViewDSL.swift in Sources */,
+				CF5448E8FC510B5391E0BBD4D3C91052 /* Debugging.swift in Sources */,
+				5AF0500E55C867780C9738AEE1A875CE /* LayoutConstraint.swift in Sources */,
+				EAF5A39C86D53FDB8830AC2B4F53C914 /* LayoutConstraintItem.swift in Sources */,
+				11AEA32D445727D11F3FCDFE1F1B0808 /* SnapKit-dummy.m in Sources */,
+				FE6705FABCDDF0C4DA518C7D95655D03 /* Typealiases.swift in Sources */,
+				6404CA3F53C9F02B0B35B4AD4F7F8537 /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		045891E9899E92656A872D0A68E54530 /* PBXTargetDependency */ = {
+		2F63BDE7EB53B0CE03B18C79356E630D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = B9FFCE3AED03E6E0DC7A681C6EEBC11D /* PBXContainerItemProxy */;
+			targetProxy = 9601D49E2A98DB543E8BB8A7538C297A /* PBXContainerItemProxy */;
 		};
-		9296DD7813FF25F49F41A411CF76074F /* PBXTargetDependency */ = {
+		52772545E61DAEBCF26CF2F8E4831A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 4089FC18874A5684BBFE941958494295 /* PBXContainerItemProxy */;
+		};
+		879DCC48C7062CE9B065949C991844DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MakeMoneyOnline;
 			target = F21392FCCF225189B7C831596C400E34 /* MakeMoneyOnline */;
-			targetProxy = EBE68CCBAAF4B450CF900BE73C87384C /* PBXContainerItemProxy */;
+			targetProxy = 7481F1B0B23DAA5222A96C23B8CDA9FA /* PBXContainerItemProxy */;
 		};
-		A01BF1FE15C28414F494B5365D6C399A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = F151F7BF68922D5124FF855CCA66010C /* PBXContainerItemProxy */;
-		};
-		C717305C10DC529C80DAC360038681A6 /* PBXTargetDependency */ = {
+		E01B90721F21A03192048DCD26E882B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SnapKit-SnapKit_Privacy";
 			target = 8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */;
-			targetProxy = 3BBB50A75E2502631DD0836F33D6A020 /* PBXContainerItemProxy */;
+			targetProxy = 2A7C86D5C8D4D2F1EE3595021F41C989 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1691093191C1E2866FA97A1F82D2E3FA /* Debug */ = {
+		11139156B72A581D15FC39DC46E9409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
+				IBSC_MODULE = SnapKit;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SnapKit_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		13E242F9DB9E3622450A17932D9AE621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23EA206AEEB4B9672D3A7877F6A638B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */;
 			buildSettings = {
@@ -679,9 +741,9 @@
 			};
 			name = Debug;
 		};
-		237C8793C93130081CD3F01DA04FA15E /* Debug */ = {
+		26F81EEC67059A728E3E776458F862E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2845AB1F32E5906B12565E2606D41BD2 /* MakeMoneyOnline.debug.xcconfig */;
+			baseConfigurationReference = F8305DC1D81FB6D7389CC281B58FC0DE /* MakeMoneyOnline.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -786,6 +848,47 @@
 			};
 			name = Debug;
 		};
+		9AD6FAC07C9589859673DA552AA321D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E157A97BA35907B92B9EFE82BEAE71EE /* MakeMoneyOnline.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline.modulemap";
+				PRODUCT_MODULE_NAME = MakeMoneyOnline;
+				PRODUCT_NAME = MakeMoneyOnline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -849,50 +952,9 @@
 			};
 			name = Release;
 		};
-		BEA8553BED56801B036D4665DD651333 /* Release */ = {
+		D521ABD0EF911A58A73E527BB382957B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7C9AC33E6FC66384A46A8FD26AACADA /* MakeMoneyOnline.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/MakeMoneyOnline/MakeMoneyOnline.modulemap";
-				PRODUCT_MODULE_NAME = MakeMoneyOnline;
-				PRODUCT_NAME = MakeMoneyOnline;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFD858EE0E1BEC50266F2BB567FDB781 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
+			baseConfigurationReference = A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,11 +987,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		E19FD489669D7F9E647547FAC58450A9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1010,71 +1071,23 @@
 			};
 			name = Debug;
 		};
-		F534E527BE88D7FADCF0D8974822044F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FCCF61C8BE68225C79497B57F8CE5702 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
-				IBSC_MODULE = SnapKit;
-				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = SnapKit_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9D7939A3B1439A23453C08042FC1B7 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
+		0DFE79750629A7999F3085FABB5B7257 /* Build configuration list for PBXNativeTarget "MakeMoneyOnline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1691093191C1E2866FA97A1F82D2E3FA /* Debug */,
-				FCCF61C8BE68225C79497B57F8CE5702 /* Release */,
+				26F81EEC67059A728E3E776458F862E8 /* Debug */,
+				9AD6FAC07C9589859673DA552AA321D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EA8DEF54B414B7BF60BD13B1DB772F /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D521ABD0EF911A58A73E527BB382957B /* Debug */,
+				13E242F9DB9E3622450A17932D9AE621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1088,29 +1101,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6059C90DB60974B5F123254AF719DCD6 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EA206AEEB4B9672D3A7877F6A638B7 /* Debug */,
+				11139156B72A581D15FC39DC46E9409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		83BDCB2D27C0A6293337B7A67B393F04 /* Build configuration list for PBXNativeTarget "Pods-rewardHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1D0148E0442EE63074F465C6B5A2EF8 /* Debug */,
 				E19FD489669D7F9E647547FAC58450A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87BEFF36EDD8319E4E58BD25726428C1 /* Build configuration list for PBXNativeTarget "MakeMoneyOnline" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				237C8793C93130081CD3F01DA04FA15E /* Debug */,
-				BEA8553BED56801B036D4665DD651333 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCA46D19B2DB97CE2F34C0701BF64CB3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F534E527BE88D7FADCF0D8974822044F /* Debug */,
-				BFD858EE0E1BEC50266F2BB567FDB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
