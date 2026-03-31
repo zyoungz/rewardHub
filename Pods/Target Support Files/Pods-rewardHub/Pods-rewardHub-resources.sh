@@ -97,10 +97,26 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ObjectMapper/Privacy.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit_Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift/SwifterSwift_Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ObjectMapper/Privacy.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit_Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwifterSwift/SwifterSwift_Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59776F59F5BB30C2010CDB11 /* Pods_rewardHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A878124500BA185B17FC2099 /* Pods_rewardHub.framework */; };
+		7F82B8DEA90C45EEBB922B82 /* Pods_rewardHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C914C8FC9B187F9DD11AD41 /* Pods_rewardHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.debug.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.debug.xcconfig"; sourceTree = "<group>"; };
-		91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.release.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.release.xcconfig"; sourceTree = "<group>"; };
+		035AA30083FCF3C0805403AB /* Pods-rewardHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.debug.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.debug.xcconfig"; sourceTree = "<group>"; };
+		3C914C8FC9B187F9DD11AD41 /* Pods_rewardHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewardHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		954E6DCE2F7668F9004168C7 /* rewardHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rewardHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A878124500BA185B17FC2099 /* Pods_rewardHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewardHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFAB7E38D178CC159F5A668 /* Pods-rewardHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardHub.release.xcconfig"; path = "Target Support Files/Pods-rewardHub/Pods-rewardHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -43,18 +43,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59776F59F5BB30C2010CDB11 /* Pods_rewardHub.framework in Frameworks */,
+				7F82B8DEA90C45EEBB922B82 /* Pods_rewardHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09EB7667A5DF636712EB31E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C914C8FC9B187F9DD11AD41 /* Pods_rewardHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3650EE6D79C5B2D291D5AC03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */,
-				91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */,
+				035AA30083FCF3C0805403AB /* Pods-rewardHub.debug.xcconfig */,
+				CCFAB7E38D178CC159F5A668 /* Pods-rewardHub.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,7 +73,7 @@
 				954E6DD02F7668F9004168C7 /* rewardHub */,
 				954E6DCF2F7668F9004168C7 /* Products */,
 				3650EE6D79C5B2D291D5AC03 /* Pods */,
-				D3057D4A846CB8520121CB93 /* Frameworks */,
+				09EB7667A5DF636712EB31E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,14 +85,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3057D4A846CB8520121CB93 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A878124500BA185B17FC2099 /* Pods_rewardHub.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,11 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 954E6DE12F7668FA004168C7 /* Build configuration list for PBXNativeTarget "rewardHub" */;
 			buildPhases = (
-				BBC4608937A4E5BDB7705123 /* [CP] Check Pods Manifest.lock */,
+				52D9757F7423ADB41936711B /* [CP] Check Pods Manifest.lock */,
 				954E6DCA2F7668F9004168C7 /* Sources */,
 				954E6DCB2F7668F9004168C7 /* Frameworks */,
 				954E6DCC2F7668F9004168C7 /* Resources */,
-				C0D56434E15F261EA85BF0F1 /* [CP] Copy Pods Resources */,
+				AD9CB3988FD10C6CE6A1602B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,7 +155,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BBC4608937A4E5BDB7705123 /* [CP] Check Pods Manifest.lock */ = {
+		52D9757F7423ADB41936711B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,7 +177,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0D56434E15F261EA85BF0F1 /* [CP] Copy Pods Resources */ = {
+		AD9CB3988FD10C6CE6A1602B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 8;
@@ -210,7 +210,7 @@
 /* Begin XCBuildConfiguration section */
 		954E6DE22F7668FA004168C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39128B29EBE2FB6426C50102 /* Pods-rewardHub.debug.xcconfig */;
+			baseConfigurationReference = 035AA30083FCF3C0805403AB /* Pods-rewardHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -224,6 +224,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -243,7 +244,7 @@
 		};
 		954E6DE32F7668FA004168C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91EFAD20CA354FDD44CFFB5B /* Pods-rewardHub.release.xcconfig */;
+			baseConfigurationReference = CCFAB7E38D178CC159F5A668 /* Pods-rewardHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -257,6 +258,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

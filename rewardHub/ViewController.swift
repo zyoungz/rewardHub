@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         setupUI()
         // 设置代理
-        RewardhubManager.shared.ndelegate = self
+        RewardhubManager.shared.delegate = self
     }
     
     private func setupUI() {

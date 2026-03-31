@@ -1,7 +1,66 @@
 PODS:
+  - Alamofire (5.11.1)
+  - CryptoSwift (1.8.4)
+  - FSPagerView (0.8.3)
+  - Kingfisher (8.8.0)
   - MakeMoneyOnline (1.0.0):
+    - Alamofire
+    - CryptoSwift
+    - FSPagerView (~> 0.8.3)
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - ObjectMapper
     - SnapKit (~> 5.0)
+    - SwifterSwift
+    - SwiftyJSON
+  - MJRefresh (3.7.9)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.4.2)
   - SnapKit (5.7.1)
+  - SwifterSwift (8.0.0):
+    - SwifterSwift/AppKit (= 8.0.0)
+    - SwifterSwift/AppKitNoIBInspectable (= 8.0.0)
+    - SwifterSwift/CoreAnimation (= 8.0.0)
+    - SwifterSwift/CoreGraphics (= 8.0.0)
+    - SwifterSwift/CoreLocation (= 8.0.0)
+    - SwifterSwift/CryptoKit (= 8.0.0)
+    - SwifterSwift/Dispatch (= 8.0.0)
+    - SwifterSwift/Foundation (= 8.0.0)
+    - SwifterSwift/HealthKit (= 8.0.0)
+    - SwifterSwift/MapKit (= 8.0.0)
+    - SwifterSwift/NoIBInspectable (= 8.0.0)
+    - SwifterSwift/SceneKit (= 8.0.0)
+    - SwifterSwift/SpriteKit (= 8.0.0)
+    - SwifterSwift/StoreKit (= 8.0.0)
+    - SwifterSwift/SwiftStdlib (= 8.0.0)
+    - SwifterSwift/UIKit (= 8.0.0)
+    - SwifterSwift/UIKitNoIBInspectable (= 8.0.0)
+    - SwifterSwift/WebKit (= 8.0.0)
+  - SwifterSwift/AppKit (8.0.0)
+  - SwifterSwift/AppKitNoIBInspectable (8.0.0):
+    - SwifterSwift/AppKit
+  - SwifterSwift/CoreAnimation (8.0.0)
+  - SwifterSwift/CoreGraphics (8.0.0)
+  - SwifterSwift/CoreLocation (8.0.0)
+  - SwifterSwift/CryptoKit (8.0.0)
+  - SwifterSwift/Dispatch (8.0.0)
+  - SwifterSwift/Foundation (8.0.0)
+  - SwifterSwift/HealthKit (8.0.0)
+  - SwifterSwift/MapKit (8.0.0)
+  - SwifterSwift/NoIBInspectable (8.0.0)
+  - SwifterSwift/SceneKit (8.0.0)
+  - SwifterSwift/SpriteKit (8.0.0)
+  - SwifterSwift/StoreKit (8.0.0)
+  - SwifterSwift/SwiftStdlib (8.0.0)
+  - SwifterSwift/UIKit (8.0.0)
+  - SwifterSwift/UIKitNoIBInspectable (8.0.0):
+    - SwifterSwift/UIKit
+  - SwifterSwift/WebKit (8.0.0)
+  - SwiftyJSON (5.0.2)
 
 DEPENDENCIES:
   - MakeMoneyOnline (from `../MakeMoneyOnline`)
@@ -9,16 +68,34 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CryptoSwift
+    - FSPagerView
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - ObjectMapper
     - SnapKit
+    - SwifterSwift
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   MakeMoneyOnline:
     :path: "../MakeMoneyOnline"
 
 SPEC CHECKSUMS:
-  MakeMoneyOnline: f930cfcbdce96869117123486fd19653ee6a4960
+  Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
+  CryptoSwift: e64e11850ede528a02a0f3e768cec8e9d92ecb90
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  Kingfisher: beeaf65ed57dfa710d416aea4093277e8a9b1968
+  MakeMoneyOnline: 4791002624ba26270247f8e6bc18d7e61e729f1d
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwifterSwift: 517fa61daf5b4c5e3ed13b9f35f4c26b310cfb97
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: ce5ce0a033ee2915b59cc6ced245b13b2cb31215
+PODFILE CHECKSUM: c53278da37ed83facde84a8a9759cf5f360798f9
 
 COCOAPODS: 1.16.2

@@ -23,7 +23,18 @@
   "dependencies": {
     "SnapKit": [
       "~> 5.0"
-    ]
+    ],
+    "Alamofire": [],
+    "Kingfisher": [],
+    "MJRefresh": [],
+    "ObjectMapper": [],
+    "FSPagerView": [
+      "~> 0.8.3"
+    ],
+    "CryptoSwift": [],
+    "SwiftyJSON": [],
+    "SwifterSwift": [],
+    "Moya": []
   },
   "swift_version": "5.0"
 }
